@@ -1,0 +1,10 @@
+.movie_list {
+  display: grid;
+  /* 동일한 가로비율로 2칸 지정 */
+  /* 1fr  1fr = 2, 1fr */
+  /* grid-template-columns: 1fr 1fr; */
+  grid-template-columns: repeat(2, 1fr);
+  /* grid는 표구조이므로 gap만큼 줄이지 않아도 됨 */
+  gap: 20px 15px;
+  margin-top: 10px;
+}

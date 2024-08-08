@@ -1,0 +1,14 @@
+.movie_card .img_wrap {
+  aspect-ratio: 9 / 13;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.movie_card .img_wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.movie_card .txt_wrap {
+  display: flex;
+  flex-direction: column;
+}

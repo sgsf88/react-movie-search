@@ -1,0 +1,15 @@
+.movie_tab {
+  display: flex;
+  border-left: 1px solid #666;
+}
+.movie_tab button {
+  height: 30px;
+  border: 1px solid #666;
+  border-left: none;
+  padding: 0 15px;
+  background: #eee;
+}
+.movie_tab button.active {
+  background: #666;
+  color: #fff;
+}

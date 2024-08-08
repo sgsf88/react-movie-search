@@ -1,0 +1,15 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 0 5px;
+}
+.pagination button {
+  padding: 0 10px;
+  height: 30px;
+  border: 1px solid #666;
+  min-width: 30px;
+}
+.pagination button.active {
+  background: #666;
+}

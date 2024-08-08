@@ -1,0 +1,15 @@
+.movie_search {
+  border: 1px solid #ccc;
+  margin: 20px 0;
+}
+.movie_search form {
+  display: flex;
+}
+.movie_search input[type='search'] {
+  width: calc(100% - 60px);
+  border: none;
+}
+.movie_search button {
+  width: 60px;
+  border: none;
+}
